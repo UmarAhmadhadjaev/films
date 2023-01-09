@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Films</title>
+  </head>
+  <body class="container-fluid">
+    <h1 class="h1 text-center mb-5">Filmlar</h1>
+
+    <form class="form mb-5 d-flex justify-content-center">
+      <input
+        class="form-control w-25 me-3"
+        type="search"
+        placeholder="Searching movies..."
+      />
+      <!-- <button class="btn btn-info">Search</button> -->
+    </form>
+
+    <select class="mb-3 form-control" id="types-select">
+      <option value="all">Barcha Filmlar</option>
+      <option value="action">Action</option>
+      <option value="comedy">Comedy</option>
+      <option value="adventure">Adventure</option>
+      <option value="fantasy">Fantasy</option>
+      <option value="thriller">Thriller</option>
+      <option value="horror">Horror</option>
+      <option value="family">Family</option>
+      <option value="action">Action</option>
+      <option value="documentary">Documentary</option>
+      <option value="animation">Animation</option>
+      <option value="mystery">Mystery</option>
+      <option value="drama">Drama</option>
+      <option value="music">Music</option>
+      <option value="crime">Crime</option>
+      <option value="romance">Romance</option>
+      <option value="history">History</option>
+    </select>
+
+    <ul
+      class="list d-flex list-unstyled flex-wrap justify-content-between"
+    ></ul>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
